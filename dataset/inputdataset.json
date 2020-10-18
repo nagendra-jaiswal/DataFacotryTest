@@ -1,0 +1,19 @@
+{
+	"name": "inputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "empty.txt",
+				"folderPath": "Input",
+				"container": "adftutorial"
+			}
+		}
+	}
+}
