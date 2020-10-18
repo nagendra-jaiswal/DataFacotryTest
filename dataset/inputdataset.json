@@ -5,12 +5,6 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"SourceContainer": {
-				"type": "string",
-				"defaultValue": "adftutorial"
-			}
-		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
@@ -18,11 +12,9 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "empty.txt",
 				"folderPath": "Input",
-				"container": {
-					"value": "@dataset().SourceContainer",
-					"type": "Expression"
-				}
+				"container": "adftutorial"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

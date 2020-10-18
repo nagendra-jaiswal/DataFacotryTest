@@ -36,33 +36,19 @@
 				"inputs": [
 					{
 						"referenceName": "inputdataset",
-						"type": "DatasetReference",
-						"parameters": {
-							"SourceContainer": "adftutorial"
-						}
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "Outputdataset",
-						"type": "DatasetReference",
-						"parameters": {
-							"TargetContainer": "adftutorialsit"
-						}
+						"type": "DatasetReference"
 					}
 				]
 			}
 		],
-		"parameters": {
-			"SourceFolderContainer": {
-				"type": "string",
-				"defaultValue": "adftutorial"
-			},
-			"TargetFolderContainer": {
-				"type": "string",
-				"defaultValue": "adftutorial"
-			}
-		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2020-10-18T02:56:18Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }

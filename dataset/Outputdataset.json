@@ -5,23 +5,15 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"TargetContainer": {
-				"type": "string",
-				"defaultValue": "adftutorialsit"
-			}
-		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "output",
-				"container": {
-					"value": "@dataset().TargetContainer",
-					"type": "Expression"
-				}
+				"container": "adftutorial"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
