@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "adftutorial/Input/empty.txt"
+					},
+					{
+						"name": "Destination",
+						"value": "adftutorial/output/"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "BinarySource",
