@@ -16,7 +16,7 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "adftutorial/Input/empty.txt"
+						"value": "adftutorial/Input/*.txt"
 					},
 					{
 						"name": "Destination",
