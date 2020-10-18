@@ -8,7 +8,7 @@
 		"parameters": {
 			"TargetContainer": {
 				"type": "string",
-				"defaultValue": "adftutorial"
+				"defaultValue": "adftutorialsit"
 			}
 		},
 		"annotations": [],
