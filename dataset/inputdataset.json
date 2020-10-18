@@ -18,7 +18,10 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "empty.txt",
 				"folderPath": "Input",
-				"container": "adftutorial"
+				"container": {
+					"value": "@dataset().SourceContainer",
+					"type": "Expression"
+				}
 			}
 		}
 	}
