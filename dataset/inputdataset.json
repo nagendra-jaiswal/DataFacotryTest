@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "*.txt",
-				"folderPath": "Input",
+				"folderPath": "input",
 				"container": "adftutorial"
 			}
 		}
